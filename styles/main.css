@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'old-charlotte';
-    src: url('/font/Old_Charlotte.ttf');
+    src: url('/rpg-arkanun/font/Old_Charlotte.ttf');
 }
 
 * {
@@ -27,7 +27,7 @@ body {
     height: 100vh;
     width: 90vw;
     max-width: 700px;
-    background-image: url('/images/old_paper.jpg');
+    background-image: url('/rpg-arkanun/images/old_paper.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
