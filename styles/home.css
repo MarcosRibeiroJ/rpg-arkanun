@@ -23,10 +23,21 @@
     color: #f8f8ff;
     text-decoration: none;
     background-image: linear-gradient(to bottom, #cf2828, #1b1a1a);
-    
+    font-size: 1rem;
 }
 
 #container .content .button:hover {
     color: #ffffff;
     background-image: linear-gradient(to bottom, #ff0000, #000000);
+}
+
+@media (min-width: 480px) {
+    #container .banner span {
+        font-size: 7rem;
+    }
+
+    #container .content .button {
+        font-size: 1.5rem;
+    }
+    
 }
