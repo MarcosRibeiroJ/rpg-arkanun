@@ -1,0 +1,43 @@
+#container .banner {
+    height: 40vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .banner span {
+    color: #a52a2a;
+    font-size: 4.375rem;
+}
+
+#container .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#container .content .button {
+    border-radius: 3%;
+    padding: 0.7rem;
+    color: #f8f8ff;
+    text-decoration: none;
+    background-image: linear-gradient(to bottom, #cf2828, #1b1a1a);
+    font-size: 1rem;
+}
+
+#container .content .button:hover {
+    color: #ffffff;
+    background-image: linear-gradient(to bottom, #ff0000, #000000);
+}
+
+@media (min-width: 480px) {
+    #container .banner span {
+        font-size: 7rem;
+    }
+
+    #container .content .button {
+        font-size: 1.5rem;
+    }
+    
+}

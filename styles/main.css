@@ -16,7 +16,7 @@ html, body {
 body {
     font-weight: 500;
     font-size: 1.6rem;
-    font-family: 'old-charlotte', 'KJV1611Regular';
+    font-family: 'old-charlotte', 'Grenze Gotisch', cursive;
     display: flex;
     align-items: center;
     justify-content: center;
